@@ -1,0 +1,6 @@
+echo hello > a >> b > c ; ls ; cat a ; cat b; cat c ; rm a ; rm b ; rm c 
+
+echo hello | echo world
+echo hello | echo my | echo shell
+
+ps aux | grep firefox | wc -l
